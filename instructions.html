@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="scripts/currentTime.js"></script>
+	<script src="scripts/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+  <title>PSI | Welcome!</title>
+</head>
+<body>
+  <div class="container">
+    <article id="homepage">
+  		<div class="page-header">
+  			<h1>Welcome to our pilot study!</h1>
+  		</div>
+  		<section id="sec-tasks">
+    		<h3>What you will be asked to do</h3>
+    		<ol id="cwt">
+    		  <li>Mouse task</li>
+    		  <p>In this task, you will click buttons to select the right answer. Each test contains a written color word painted with an ink that does not necessarily match the word. The image below shows two examples with different cues. After doing the task for 5 minutes, your performance will be evaluated. Notice that the buttons' position might change.</p>
+			    <img class="centered-img" src="resources/cat-demo.png"/>
+			    <li>Questionnaires</li>
+    		  <p>This task contains several multiple-choice questions.</p>
+    		  <li>Watch nature video</li>
+    		  <p>In this task, feel free to adjust the audio to a comfortable volume.</p>
+    		</ol>
+    	<p>The whole session should take no longer than 20 minutes. The mouse will be performed twice.</p>
+  		</section>
+  		<form id="form-config" action="preQuestionnaire.html">
+  		  <h3>Start Study</h3>
+  		  <p>By clicking on the button below, you agree to participate in this study. In this case, you will be redirected to the pre-test questionnaire.</p>
+  			<input id="btn_agree" type="submit" class="btn btn-danger btn-block next-page" value="I agree" />
+  		</form>
+    </article>
+  </div>
+</body>
+</html>
