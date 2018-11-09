@@ -1,6 +1,6 @@
 
 // game duration
-var duration = 5 * 60; // 5 min
+var duration = 3 * 60; // 3 min
 // time for per answer
 var RT = 3, adaptiveRT = 3; // response time in seconds
 var earning = 1;
